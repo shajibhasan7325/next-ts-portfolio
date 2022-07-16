@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { IService } from "../../styles/type";
+import { IService } from "../styles/type";
 
 export const ServiceCard: FunctionComponent<{ service: IService }> = ({
   service: { Icon, about, title },

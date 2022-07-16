@@ -3,8 +3,8 @@ import { useState } from "react";
 import { fadingUp, stagger } from "../styles/Animation";
 import { projects } from "../styles/data";
 import { category } from "../styles/type";
-import { ProjectCard } from "./Component/ProjectCard";
-import ProjectNavbar from "./Component/projectNavbar";
+import { ProjectCard } from "../Component/ProjectCard";
+import ProjectNavbar from "../Component/projectNavbar";
 
 const Project = () => {
   const [project, setProject] = useState(projects);

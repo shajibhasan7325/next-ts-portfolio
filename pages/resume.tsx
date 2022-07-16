@@ -1,11 +1,11 @@
 import { languages, tools } from "../styles/data"
-import { Bar } from "./Component/Bar"
+import { Bar } from "../Component/Bar"
 import { motion } from "framer-motion"
 import { fadingUp } from "../styles/Animation"
 
 
 
- const resume = () => {
+ const Resume = () => {
   
   return (
     <div className="px-6 py-2 ">
@@ -61,4 +61,4 @@ import { fadingUp } from "../styles/Animation"
     </div>
   )
 }
- export default resume
+ export default Resume

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { services } from "../styles/data";
-import { ServiceCard } from "./Component/ServiceCard";
+import { ServiceCard } from "../Component/ServiceCard";
 import { fadingUp, stagger } from "../styles/Animation"
 
 

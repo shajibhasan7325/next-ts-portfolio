@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { ISkill } from "../../styles/type";
+import { ISkill } from "../styles/type";
 import {motion} from 'framer-motion'
 
 export const Bar: FunctionComponent<{

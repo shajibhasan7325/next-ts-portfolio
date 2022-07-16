@@ -1,10 +1,10 @@
 import { FunctionComponent, useState } from "react";
 import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
-import { IProject } from "../../styles/type";
+import { IProject } from "../styles/type";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { fadingUp, stagger } from "../../styles/Animation";
+import { fadingUp, stagger } from "../styles/Animation";
 
 export const ProjectCard: FunctionComponent<{
   project: IProject;

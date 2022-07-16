@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { category } from "../../styles/type";
+import { category } from "../styles/type";
 
 export const NavItem: FunctionComponent<{
   value: category | "all"
